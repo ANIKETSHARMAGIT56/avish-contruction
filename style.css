@@ -44,7 +44,7 @@ header{
     flex-direction: column;
     display: flex;
     justify-content: center;
-    font-size: 5rem;
+    font-size: 4.5rem;
     align-items: center;
 }
 @media only screen and (max-width: 768px) {
