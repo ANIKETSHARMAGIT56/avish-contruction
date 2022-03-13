@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(building.jpg) contain;
+}
+.topbar{
+    flex-wrap: wrap;
+    align-items: baseline;
+    display: flex;
+    background-color: #16697A;
+    flex-direction: row-reverse;
+    width: 100%;  
+}
+.buttons{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color:#22879b;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 0.5rem;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    background-color: #EDE7E3;
+    
+}
+#compname{
+    display: inline-block;
+    border-radius: 3px;
+    margin: 0.5rem;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
