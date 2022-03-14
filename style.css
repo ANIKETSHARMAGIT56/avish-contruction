@@ -10,6 +10,7 @@ header{
     display: flex;
     width: 100%;
     height: 100%;
+    /* background: url(const.jpeg) no-repeat center center/cover; */
     background: url('https://source.unsplash.com/random/1366x768/?construction') no-repeat center center/cover;
     position: absolute;
     top:0;
@@ -47,9 +48,19 @@ header{
     font-size: 4.5rem;
     align-items: center;
 }
+.company_description{
+    margin-top: 3vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color:bisque;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     header{
     background: url('https://source.unsplash.com/random/768x1366/?construction') no-repeat center center/cover;
+    /* background: url(const.jpeg) no-repeat center center/cover; */
     }
   }
