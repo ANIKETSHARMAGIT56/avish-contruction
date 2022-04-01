@@ -9,8 +9,8 @@ body{
 .navbar{
     display: flex;
     width: 100%;
-    color: black;
-    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
     flex-flow: row;
     flex-direction: row;
     position:fixed;
@@ -36,7 +36,7 @@ header{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 80vh;
+    height: 30rem;
 }
 .navbar-links{
     text-decoration: none;
@@ -56,23 +56,26 @@ header{
 }
 #tagline{
     font-size: 2rem;
-    color: aliceblue;
+    color: white;
 }
 #social-media{
-    background-color:#ffd992;
+    background-color: white;
+    font-size: 2rem;
+    /* background-color:#ffd992; */
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
 }
+
 .logos{
-    height: inherit;
+    height: 7vh;
     width: max-content;
 }
 .logo-container{
     /* align-content: space-around; */
     justify-content: space-evenly;
-    width: 50%;
+    width: 100%;
     margin: 1rem;
     display: flex;
     flex-direction: row;
@@ -82,10 +85,11 @@ footer{
     /* border-radius: 10%; */
     padding: 1rem;
     display: flex;
-    flex-direction: row;
-    background-color:#B68D40;
-    font-size:small;
-    height: 20vh;
+    flex-direction: column;
+    background-color: white;
+    /* background-color:#B68D40; */
+    font-size:1rem;
+    height: 20rem;
     color: black;
     text-align: center;
     align-items:center;
@@ -93,6 +97,7 @@ footer{
     justify-content: space-around;
 }
 .footer-headings{
+    /* padding-right: 10px; */
     font-size: 1rem;
     font-weight: bold;
 }
@@ -100,12 +105,10 @@ footer{
 
     display: flex;
     flex-direction: column;
-    height: 40%;
+    /* height: 40%; */
     justify-content: space-evenly;
 
     align-self:flex-start;
+    align-items: flex-start;
     /* place-items:initial; */
-}
-@media screen {
-    
 }
