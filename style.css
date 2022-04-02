@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
+a{
+    color: black;
+}
 body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
@@ -18,8 +21,8 @@ body{
     background-color: #aaa8a0ce;
 }
 #bg-photo{
-    background: url(const.jpeg) no-repeat center center/cover;
-    /* background: url('https://source.unsplash.com/random/1366x768/?construction-tools') no-repeat center center/cover; */
+    /* background: url(const.jpeg) no-repeat center center/cover; */
+    background: url('https://source.unsplash.com/random/1366x768/?construction-tools') no-repeat center center/cover;
     opacity: 1;
     width: 100%;
     height: inherit;
@@ -58,23 +61,33 @@ header{
     font-size: 2rem;
     color: white;
 }
+#about-us{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: white;
+    height: 20vh;
+}
 #social-media{
     background-color: white;
     font-size: 2rem;
-    /* background-color:#ffd992; */
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
 }
-
 .logos{
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
-    height: 7vh;
-    width: max-content;
+    transition: 500ms;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
+    height: 3rem;
+    width: 3rem;
+}
+.logos:hover{
+    filter: drop-shadow(0px 0px 5px rgb(101, 100, 100));
 }
 .logo-container{
-    /* align-content: space-around; */
+    align-items: center;
     justify-content: space-evenly;
     width: 100%;
     margin: 1rem;
@@ -83,12 +96,10 @@ header{
     height: 10vh;
 }
 footer{
-    /* border-radius: 10%; */
     padding: 1rem;
     display: flex;
     flex-direction: column;
     background-color: white;
-    /* background-color:#B68D40; */
     font-size:1rem;
     height: 20rem;
     color: black;
@@ -98,18 +109,19 @@ footer{
     justify-content: space-around;
 }
 .footer-headings{
-    /* padding-right: 10px; */
     font-size: 1rem;
     font-weight: bold;
 }
 .footer-container{
-
     display: flex;
     flex-direction: column;
-    /* height: 40%; */
     justify-content: space-evenly;
 
     align-self:flex-start;
     align-items: flex-start;
-    /* place-items:initial; */
 }
+/* #licence-info{
+    background-color: white;
+    /* height: 100vw; */
+    /* margin-top: 100vh; */
+} */
