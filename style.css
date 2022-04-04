@@ -21,8 +21,8 @@ body{
     background-color: #aaa8a0ce;
 }
 #bg-photo{
-    /* background: url(const.jpeg) no-repeat center center/cover; */
-    background: url('https://source.unsplash.com/random/1366x768/?construction-tools') no-repeat center center/cover;
+    background: url(const.jpeg) no-repeat center center/cover;
+    /* background: url('https://source.unsplash.com/random/1366x768/?construction-tools') no-repeat center center/cover; */
     opacity: 1;
     width: 100%;
     height: inherit;
@@ -120,4 +120,22 @@ footer{
 
     align-self:flex-start;
     align-items: flex-start;
+}
+#mail-desktop{
+    visibility: visible;
+    display: inline-block;
+}
+#mail-phone{
+    visibility:hidden;
+    display: none;
+}
+@media (pointer:none), (pointer:coarse) {
+    #mail-desktop{
+        visibility: hidden;
+        display:none;
+    }
+    #mail-phone{
+        visibility: visible;
+        display:inline-block;
+    }
 }
