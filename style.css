@@ -41,18 +41,6 @@ header{
     width: 100%;
     height: 30rem;
 }
-.navbar-links{
-    text-decoration: none;
-    color: black;
-    padding: 0.3rem;
-    transition: 1s;
-    margin: 2px;
-}
-.navbar-links:hover{
-    cursor: default;
-    border-radius: 10%;
-    background-color:rgba(255, 255, 255, 0.192);
-}
 #about{
     font-size: 1rem;
     color: white;
@@ -63,7 +51,10 @@ header{
 }
 #about-us{
     display: flex;
+    flex-direction:column;
     align-items: center;
+    align-content: justify;
+    justify-content: center;
     text-align: center;
     font-size: 1.2rem;
     background-color: white;
@@ -78,7 +69,6 @@ header{
     justify-content: center;
 }
 .logos{
-    /* left: 0; */
     transition: 500ms;
     filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
     height: 3rem;
@@ -129,7 +119,7 @@ footer{
     visibility:hidden;
     display: none;
 }
-@media (pointer:none), (pointer:coarse) {
+@media (pointer:none),(pointer:coarse){
     #mail-desktop{
         visibility: hidden;
         display:none;
