@@ -1,5 +1,4 @@
 *{
-    background-color: white;
     padding: 0px;
     margin: 0px;
 }
@@ -10,30 +9,20 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: black;
 }
-nav{
+.navbar{
     display: flex;
     width: 100%;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
     flex-flow: row;
     flex-direction: row;
     position:fixed;
-    background-color:white;
     z-index: 1;
-    border-bottom: 1px solid black;
-}
-nav > div{
-    margin: 0.4rem;
-    padding: 0.3rem;
-    cursor: z;
-}
-nav > div:hover{
-    background-color:rgba(0, 0, 0, 0.466);
-    /* border-radius: 12px; */
+    background-color: #aaa8a0ce;
 }
 #bg-photo{
-    /* background: url(const.jpeg) no-repeat center center/cover; */
-    background: url('https://source.unsplash.com/random/1366x768/?construction-tools') no-repeat center center/cover;
+    background: url(const.jpeg) no-repeat center center/cover;
+    /* background: url('https://source.unsplash.com/random/1366x768/?construction-tools') no-repeat center center/cover; */
     opacity: 1;
     width: 100%;
     height: inherit;
